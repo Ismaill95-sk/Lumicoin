@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue sur Lumicoin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f9ff;
+            color: #333;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .hero {
+            background: #4CAF50;
+            color: white;
+            padding: 2rem 1rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .feature {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            border-radius: 8px;
+            max-width: 300px;
+            background: white;
+        }
+        .feature h3 {
+            color: #4CAF50;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .btn {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+        form {
+            background: white;
+            padding: 2rem;
+            margin: 2rem auto;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            max-width: 500px;
+        }
+        form input, form button {
+            display: block;
+            width: 90%;
+            margin: 1rem auto;
+            padding: 0.8rem;
+            font-size: 1rem;
+        }
+        form button {
+            background: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lumicoin</h1>
+        <p>La monnaie virtuelle du futur</p>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#features">Avantages</a>
+        <a href="#buy">Acheter Lumicoin</a>
+    </nav>
+    <section class="hero">
+        <h1>Investissez dans Lumicoin dès aujourd'hui !</h1>
+        <p>À seulement 10€ par pièce, rejoignez la révolution numérique.</p>
+        <a href="#buy" class="btn">Acheter maintenant</a>
+    </section>
+    <section id="about">
+        <h2>Qu'est-ce que Lumicoin ?</h2>
+        <p>Lumicoin est une monnaie virtuelle innovante conçue pour simplifier les transactions et créer de nouvelles opportunités d'investissement. Avec une offre limitée à 1 million de pièces, Lumicoin est votre porte d'entrée dans un écosystème financier moderne.</p>
+    </section>
+    <section id="features">
+        <h2>Pourquoi choisir Lumicoin ?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Sécurisé</h3>
+                <p>Basé sur une blockchain de pointe, Lumicoin garantit des transactions sûres et transparentes.</p>
+            </div>
+            <div class="feature">
+                <h3>Accessible</h3>
+                <p>Avec un prix abordable de 10€, Lumicoin est accessible à tous, novices comme experts.</p>
+            </div>
+            <div class="feature">
+                <h3>Évolutif</h3>
+                <p>Faites partie d'un projet en pleine expansion, avec un potentiel de valorisation énorme.</p>
+            </div>
+        </div>
+    </section>
+    <section id="buy">
+        <h2>Achetez Lumicoin maintenant</h2>
+        <form>
+            <label for="name">Nom complet :</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            <label for="email">Adresse e-mail :</label>
+            <input type="email" id="email" name="email" placeholder="Votre email" required>
+            <label for="amount">Nombre de Lumicoins :</label>
+            <input type="number" id="amount" name="amount" min="1" placeholder="Quantité" required>
+            <button type="submit">Acheter</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Lumicoin. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
